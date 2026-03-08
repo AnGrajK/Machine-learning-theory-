@@ -32,11 +32,18 @@ There are 3 types of ML
 1) Supervised Learning
 Trains a model using labeled data where each input has a known correc output, model learns by comparing its prediction wiht correct answers and imporves over time.
 USED FOR BOTH CLASSIFICATION AND REGRESSIONS PROBLEMS
+A)Classification:-It predicst categorical outputs, meaning it assigns data into predefined classes like spam/nonspam emails or disease risk categories.
+B)Regression:-It predicts continous values, such as house prices or product sales. It learns the relationship between input featuresand a numericals target variable.
+
 2)Unsupervised Learning 
 Works with unlabeled data where no correct answer or categories are provided.The models job is to find the data,hidden patterns,similarities or groups on its own. This is useful in scenarios where labeling data is difficult or impossible.
 USED APPLICATIONS ARE CLUSTERING AND ASSOCIATON
+A)Clustering:-It is a process of grouping data points into clusters based on their similarity. This technique is useful for identifying patterns and relationships in data without the need for labeled examples.
+
 3)Reinforcemen Learning
-Reinforecment Learning trains an agent to make decisions by interactiong wiht an environment. Instead of ebeing told the correct answer,agents learns by trial and error methodand gets rewards for good actions and penalties for bad ones
+Reinforecment Learning trains an agent to make decisions by interactiong wiht an environment. Instead of ebeing told the correct answer,agents learns by trial and error methodand gets rewards for good actions and penalties for bad ones.
+
+
 
 
 
