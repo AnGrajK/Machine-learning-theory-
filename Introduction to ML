@@ -43,6 +43,56 @@ A)Clustering:-It is a process of grouping data points into clusters based on the
 3)Reinforcemen Learning
 Reinforecment Learning trains an agent to make decisions by interactiong wiht an environment. Instead of ebeing told the correct answer,agents learns by trial and error methodand gets rewards for good actions and penalties for bad ones.
 
+MACHINE LEARNING PIPELINE
+A machine learning pipeline is a systematic workflow designed to automate the process of building, training, and deploying ML models. Such as:
+Data Collection
+Preprocessing
+Feature Engineering
+Model Training
+Evaluation
+Deployment
+
+A mahcine learing pipeline is a step-by-step process that automates data preparation, model traingin and deployment.
+Step 1: Data Collection and Preprocessing
+Gather data sources like databases,APIs or CSV file.
+clean it,
+Normal and standardize 
+
+Step 2: Feature Engineering
+Select the most important festures for better model performance.
+
+Step 3: Data splitting
+Divide the dataset into training, vlaidation and testing sets.
+When dealing with imbalanced datasets, use random sampling.
+
+Step 4:Model Selection & Training
+Choose the best algorithm based on the problesm includes classifiction, regression , Clustering etc
+
+Step 5: Model evaluation & Optimization
+Test the model's performance using accuracy, precision, recall and other metrics.
+Avoid over fitting and underfitting 
+over fitting happens when the model memorizes the traingin data too much including noise or random details.
+underfitting happens when model  is too simple and cannot learn the pattern ins the data.
+
+Step 6: Model Deployment
+Deploy the tarined model using Flask,FastAPI,TensorFlow and cloud services.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
