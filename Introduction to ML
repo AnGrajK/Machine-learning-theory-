@@ -77,6 +77,23 @@ underfitting happens when model  is too simple and cannot learn the pattern ins 
 Step 6: Model Deployment
 Deploy the tarined model using Flask,FastAPI,TensorFlow and cloud services.
 
+Applications of ML
+1. Healthcare and Medical Diagnosis
+ML algorithms can analyze large volumes of patient data, medical scans and genetic information to aid in diagnosis and treatment.
+
+2. Smart Assistants and Human-Machine Interaction
+Virtual assistants systems rely on natural language processing (NLP) and speech recognition to understand commands and respond intelligently.
+
+3. Personalized Recommendations and User Experience
+Modern digital platforms uses personalization which is done by using recommender systems. Machine learning models analyze user behavior to deliver relevant content, improving engagement and satisfaction.
+
+4. Fraud Detection and Financial Forecasting
+In finance, vast sums of money move digitally and machine learning plays a important role in fraud detection and market analysis.
+
+5. Autonomous Vehicles and Smart Mobility
+Self-driving vehicles use ML to understand their environment, navigate safely and make immediate decisions.
+
+
 
 
 
