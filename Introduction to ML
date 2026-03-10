@@ -113,9 +113,11 @@ Pandas operated around two core data structues:
 Series:Used to handle single columns of data efficiently.
 DataFrames:Used for structured,tabular data similar to spreadsheets or SQL tables
 
-3)Data visualization using Matplolib:- Used for creating static,animated and interactive data visualizations. It is built on the top of Numpy and it can easily handles large datsets or varioud types of plots like bar or scatter.
+3)Data visualization using Matplolib:- Used for creating static,animated and interactive data visualizations. It is built on the top of Numpy and it can easily handles large datsets or varioud types of plots like bar or scatter. 
 
+4)Data visualization with seaborn:- Used for creating statistical visualizations.Built on Matplotlib and integated with pandas, it simplifies complex plots like line charts, heatmaps and violin plots with minimal code.
 
+5)Scikit-learn:-Open-source Python library that simplifies the process of building ML models. It offers a clean and consistent interface that helps both beginners and experienced uses work efficiently.
 
 
 
