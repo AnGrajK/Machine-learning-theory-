@@ -113,6 +113,11 @@ Pandas operated around two core data structues:
 Series:Used to handle single columns of data efficiently.
 DataFrames:Used for structured,tabular data similar to spreadsheets or SQL tables
 
+3)Data visualization using Matplolib:- Used for creating static,animated and interactive data visualizations. It is built on the top of Numpy and it can easily handles large datsets or varioud types of plots like bar or scatter.
+
+
+
+
 
 
 
