@@ -96,6 +96,18 @@ Self-driving vehicles use ML to understand their environment, navigate safely an
 
 
 
+Data Science Vs Machine Learning 
+The terms Data Science and Machine Learning are often used interchangeably, but tehy are actually refer to different fields. While Machine Learning is a subset of artificial intelligence that focuses on alogrithms for prediction, Data Science is a broader domain that encompasses the entire process of extracting insights from data.
+
+Data Science 
+It is a multidisciplinary field that combines mathematics, statistics, computer science and domain expertise to collect, process, analyze and interpret data.Its aim is to extract insights and support data-driven decision-making.
+
+Machine Learning
+ML is a branch if Artificla interllignec and a subet of data science that focuses on building algorithms that can learn patterns from data and make predictions or decision wihtout being explicitly programmed.
+
+
+
+
 
 
 
