@@ -126,6 +126,33 @@ It helps in
 2)properly processed data preventrs misleading inputs,leading to more reliable predictions.
 
 steps to implement
+S1)Import libarraies and load Dataset
+eg:- 
+import pandas as pd
+import seaborn as sns
+df=pd.read_csv('')
+df.head
+
+S2)Inspect Data structure and check missing values
+To inspect a data we need to check for missing values 
+df.info()-prints consise summary including counts of non-null entries and data type of each column
+df.isnull().sum()-returns the number of missing values per column
+eg:-
+df.info()
+print(df.isnull().sum())
+
+S3)Statistical summary and Visualizing outliers
+Get numeric summaries like mean,median,min/max and detect unsual points. Outlier can skew models if not handled.
+df.describe():Computes count,mean,std deviation,min/max and quartiles for numerical columns.
+Boxplots:Visualize spread and detects outliers using matplotlib's boxplot()
+eg:-
+df.descirbe()
+
+
+
+
+
+
 
 
 
