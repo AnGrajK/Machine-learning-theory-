@@ -119,7 +119,13 @@ DataFrames:Used for structured,tabular data similar to spreadsheets or SQL table
 
 5)Scikit-learn:-Open-source Python library that simplifies the process of building ML models. It offers a clean and consistent interface that helps both beginners and experienced uses work efficiently.
 
+Data Preprocesing in Python
+Data Preprocessing is the first step in any data analysis or machine learning pipeline.It involves cleaning transforming and organizing raw data to ensure it is accurate,consistent and ready for medling.
+It helps in 
+1)cleaning and forma well-structured data that helps to learn meaning full patterns.
+2)properly processed data preventrs misleading inputs,leading to more reliable predictions.
 
+steps to implement
 
 
 
