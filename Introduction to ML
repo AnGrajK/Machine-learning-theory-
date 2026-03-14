@@ -170,6 +170,18 @@ plt.show()
 
 print(corr['Outcome'].sort_values(ascending=False)
 
+S6)Visualize Target Variable Distribution
+Check if target classes(DIABETIC VS not diabetes) are balanced.affeting model training and evaluation.
+plt.pie():Pie chart to display proportion of each class in the target variable 'outcome'.
+
+eg:-
+plt.pie(df['Outcome'].value_counts(),labels=['Diabetes,'Not Diabetes'],autopct='%f%',shadow=True)
+plt.show()
+
+
+
+
+
  
 
 
