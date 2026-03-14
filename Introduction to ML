@@ -148,6 +148,37 @@ Boxplots:Visualize spread and detects outliers using matplotlib's boxplot()
 eg:-
 df.descirbe()
 
+fig,axis=plt.subplots(len(df.columns),1,figsize=(7,18),dp=95)
+for i,col in enumerate(df,columns):
+axis[i].boxplot(df[col],vert=False)
+axis[i].set_ylabel(col)
+plt.tight_layout()
+plt.show()
+
+S4)Remove outliers using the interquartile range(IQR)method
+Remover extreme values beyond a reasonable ranger to improve model robustness.
+
+S5)Correlation Analysis
+Understand relationships between featues and the target variables. Correlation helps gauge feature importance.
+df.corr():Computes pairwise correlation coefficients between columns.
+Heatmap via seaborn visualizes correlation matrix clearly
+eg:-
+corr=df.corr()
+plt.figre(dpi=130)
+sns.heatmap(corr,annot=True,fmt='.2f',cmpa='coolwarm')
+plt.show()
+
+print(corr['Outcome'].sort_values(ascending=False)
+
+ 
+
+
+
+
+
+
+
+
 
 
 
