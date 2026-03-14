@@ -178,6 +178,20 @@ eg:-
 plt.pie(df['Outcome'].value_counts(),labels=['Diabetes,'Not Diabetes'],autopct='%f%',shadow=True)
 plt.show()
 
+S7)Seperate Features and target variable
+Prepare independent variable and dependent variable separately for modeling.
+df.drop(columns=[.])
+eg:-
+x=df.drop(columns=['Outcome'])
+y=df['Outcome']
+
+S8)Feature scaling:Normalizaztion and standardization
+Scale feature to a common rnage or ditribution,important for many ML algorithm sensitive to feature magnitudes. 
+
+1)Normalization(Min_Max):-Rescales feature between 0 and 1.Good for algorithms like K-NN and neural netwworks.
+2)Standardization:-Transform featurs to have mean=0 and standard deviation =1,useful for normally distributed features.
+
+
 
 
 
