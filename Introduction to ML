@@ -218,6 +218,17 @@ S5)Checking for the duplicate values
 df.nunique()
 
 S6)Univariate Analysis
+Plotting th right charts can help us to better understand the data making the data visualization so important.
+
+1)Bar plot for evaluating the count of the wine with its quality rate
+
+quality_counts=df['quality'].value_counts()
+plt.figure(figsize=(8,6))
+plt.bar(quality_counts.index,quality_counts,color='deeppink')
+plt.title('count plot of quality')
+plt.xlabel('quality')
+plt.ylabel('count')
+plt.show() 
 
 
 
