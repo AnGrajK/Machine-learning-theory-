@@ -211,6 +211,17 @@ df.info()
 df.describe()
 df.columns.tolist()
 
+S4)Checking missing values
+df.isnull().sum()
+
+S5)Checking for the duplicate values
+df.nunique()
+
+S6)Univariate Analysis
+
+
+
+
 
 
 
