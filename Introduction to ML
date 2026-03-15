@@ -191,6 +191,30 @@ Scale feature to a common rnage or ditribution,important for many ML algorithm s
 1)Normalization(Min_Max):-Rescales feature between 0 and 1.Good for algorithms like K-NN and neural netwworks.
 2)Standardization:-Transform featurs to have mean=0 and standard deviation =1,useful for normally distributed features.
 
+EDA-Exploratoru data analysis in Python
+EDA is an important setp in data analysis which focuses on understanding patterns,trends and relatioships through statistical tools and visualizations.
+Some common EDA techniques are:-
+Data Inspection:Check the size of the dataset, how it is organized , the types of data it contains and basic summary values.
+Handlinng Misiing and Duplicate Data:Find and fix empty values or repeated rows to keep the data clean
+Bivariate Analysis:-Compare two variables to see how they are related.
+
+Key steps for Exploratory Data Analysis(EDA)
+S1)Import required libraries
+
+S2)Reading Dataset
+df=pd.read_csv('')
+print(df.head())
+
+S3)Analyzing the data
+df.shape()
+df.info()
+df.describe()
+df.columns.tolist()
+
+
+
+
+
 
 
 
