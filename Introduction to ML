@@ -230,6 +230,32 @@ plt.xlabel('quality')
 plt.ylabel('count')
 plt.show() 
 
+2)Kernel density plot for understanding variance in the dataset
+
+sns.set_style("darkgrid")
+plt.figure(figsize=(14,len(numerical_columns)*3))
+for idx,feature in enumerate(numerical_columns,1):
+plt.subplot(len(numerical_columns),2,idx)
+sns.histplot(df[feature],kde=True)
+    plt.title(f"{feature} | Skewness: {round(df[feature].skew(), 2)}")
+
+plt.tight_layout()
+plt.show()
+
+3)Swarm plot for showing the outlier in the data
+
+plt.figure(figsize=(10,8))
+
+sns.swarmplot(x="quality",y="alcohol",data=df,palette='viridis')
+
+plt.title('swarm plot for quality and alcohol')
+plt.xlabel('quality')
+plt.ylabel('alcochol')
+plt.show()
+
+S7)Bivariate Analysis
+In 
+
 
 
 
