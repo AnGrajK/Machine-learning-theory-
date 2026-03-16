@@ -254,7 +254,8 @@ plt.ylabel('alcochol')
 plt.show()
 
 S7)Bivariate Analysis
-In 
+In Bivariate analysis two vairabls are analysed together to identify patterns, dependencies or interactions between them.
+
 
 
 
