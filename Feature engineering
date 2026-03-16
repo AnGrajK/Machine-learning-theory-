@@ -1,1 +1,81 @@
+Feature Engineering
+It is a process of selecting,creating or modifying features like input variables or data to help machine learning models learn patterns more effectively.
+It involves transforming raw data into meaningful inputs that improve model accuracy and performance.
+
+Advantages of Feature Engineering 
+1)Improve accuracy
+2)Reduce overfitting
+3)Boost interpretability
+4)Enhance effciency
+
+Steps in Feature Engineering
+Feature engineering can vary depending on the specific problem but the general steps are:
+
+Data Cleaning: Identify and correct errors or inconsistencies in the dataset to ensure data quality and reliability.
+Data Transformation: Transform raw data into a format suitable for modeling including scaling, normalization and encoding.
+Feature Extraction: Create new features by combining or deriving information from existing ones to provide more meaningful input to the model.
+Feature Selection: Choose the most relevant features for the model using techniques like correlation analysis, mutual information and stepwise regression.
+Feature Iteration: Continuously refine features based on model performance by adding, removing or modifying features for improvement.
+
+Techniques in Feature Engineering
+
+1)One-Hot Encoding:
+It converts categorical variables into binary indicators
+
+eg:
+import pandas as pd
+data={'color':['red','blue','black']}
+df=pd.DataFrame(data)
+df_encoded=pd.get_dummies(df,columns=['color'],prefix='color')
+print(df_encoded)
+
+2)Binning:
+Transforms continuous variablesinto discrete bins, making them categorical for easier analysis.
+
+eg:
+import pandas as pd
+
+data={'Age':[23,24,45,67,50]}
+df=pd.DataFrame(data)
+
+bins=[0,20,40,60,100]
+labels=['0-20','21-40','41-60','61+']
+
+df['Age_Group'] = pd.cut(df['Age'], bins=bins, labels=labels, right=False)
+
+print(df)
+
+3)Text Data Preprocessing:
+Involves removing stop-words, stemming and vectorizing text data to prepare it for machine learning models.
+
+eg:
+import nltk
+from nltk.corpus import stopwords
+from nltk.stem import PorterStemmer
+from sklearn.feature_extraction.text import CountVectorizer
+
+texts = ["This is a sample sentence.", "Text data preprocessing is important."]
+
+stop_words = set(stopwords.words('english'))
+stemmer = PorterStemmer()
+vectorizer = CountVectorizer()
+
+
+def preprocess_text(text):
+    words = text.split()
+    words = [stemmer.stem(word)
+             for word in words if word.lower() not in stop_words]
+    return " ".join(words)
+
+
+cleaned_texts = [preprocess_text(text) for text in texts]
+
+X = vectorizer.fit_transform(cleaned_texts)
+
+print("Cleaned Texts:", cleaned_texts)
+print("Vectorized Text:", X.toarray())
+
+
+
+
 
